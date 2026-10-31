@@ -1,46 +1,42 @@
-# Two-Bit Adder with Seven-Segment Display
+# Two-Digit Adder with Seven-Segment Display
 
 ## Overview
 
-This project implements a 2-bit binary adder with an input carry using Verilog HDL. The 3-bit addition result is displayed as a decimal digit on a single seven-segment display.
+This project implements a two-bit full adder using Verilog HDL.
 
-The result ranges from 0 to 7.
+Two 2-bit unsigned numbers, A and B, are added together with an input carry Cin. The 3-bit result is displayed as a decimal digit on a seven-segment display.
 
-## Hardware and Tools
+## Features
 
-- **HDL:** Verilog
-- **FPGA Board:** EGO1
-- **Design Tool:** Vivado
-- **Input:** DIP switches
-- **Output:** Seven-segment display
+- Two-bit full adder
+- Carry-in and carry-out support
+- Seven-segment display decoder
+- EGO1 FPGA board implementation
 
-## Module Description
+## Input and Output
 
-| Module | Description |
+| Signal | Description |
 |---|---|
-| `top` | Top-level module. Connects DIP switches, the adder, the decoder, and display outputs. |
-| `TwoBitAdder` | Adds two 2-bit binary numbers and an input carry. |
-| `segMsg` | Decodes a 4-bit input into seven-segment display signals. |
+| A[1:0] | First 2-bit unsigned number |
+| B[1:0] | Second 2-bit unsigned number |
+| Cin | Input carry |
+| Sum[1:0] | Two-bit sum |
+| Cout | Output carry |
 
-## Input Mapping
+The final result is:
 
-- `sw_pin[1:0]`: Operand A
-- `sw_pin[3:2]`: Operand B
-- `sw_pin[4]`: Input carry `Cin`
+`Result = {Cout, Sum}`
 
-## Output
+## Simulation
 
-The adder produces a 3-bit result:
+The waveform screenshot is available in:
 
-- `Sum[1:0]`: Two least significant result bits
-- `Cout`: Carry-out
+`simulation/two_digit_adder_waveform.png`
 
-The result `{Cout, Sum}` is decoded and displayed as a decimal digit from 0 to 7.
+The simulation verifies the relationship between the input operands, carry-in, sum, and carry-out.
 
-## Verification
+## Tools
 
-The design was verified through functional simulation and FPGA hardware testing.
-
-## Source Code
-
-- `two_digit_adder.v` — Contains the top-level module, adder module, and seven-segment decoder.
+- Verilog HDL
+- Xilinx Vivado 2023.2
+- EGO1 FPGA Board
