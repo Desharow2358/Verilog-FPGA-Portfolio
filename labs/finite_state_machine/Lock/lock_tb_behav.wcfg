@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="lock_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="lock_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="969.133 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="225"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/lock_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lock_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lock_tb/in" type="logic">
+      <obj_property name="ElementShortName">in</obj_property>
+      <obj_property name="ObjectShortName">in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lock_tb/unlock" type="logic">
+      <obj_property name="ElementShortName">unlock</obj_property>
+      <obj_property name="ObjectShortName">unlock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lock_tb/blocked" type="logic">
+      <obj_property name="ElementShortName">blocked</obj_property>
+      <obj_property name="ObjectShortName">blocked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lock_tb/uut/digit_count" type="array">
+      <obj_property name="ElementShortName">digit_count[2:0]</obj_property>
+      <obj_property name="ObjectShortName">digit_count[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lock_tb/uut/format_error" type="logic">
+      <obj_property name="ElementShortName">format_error</obj_property>
+      <obj_property name="ObjectShortName">format_error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lock_tb/uut/state" type="array">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lock_tb/uut/input_code" type="array">
+      <obj_property name="ElementShortName">input_code[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_code[15:0]</obj_property>
+   </wvobject>
+</wave_config>

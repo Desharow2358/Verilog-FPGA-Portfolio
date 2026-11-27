@@ -1,0 +1,7 @@
+Running: xsim.dir/Flash_led_top_tb_behav/xsimk.exe -simmode gui -wdb Flash_led_top_tb_behav.wdb -simrunnum 0 -socket 7590
+Design successfully loaded
+Design Loading Memory Usage: 9688 KB (Peak: 9688 KB)
+Design Loading CPU Usage: 61 ms
+Simulation completed
+Simulation Memory Usage: 10300 KB (Peak: 10300 KB)
+Simulation CPU Usage: 61 ms

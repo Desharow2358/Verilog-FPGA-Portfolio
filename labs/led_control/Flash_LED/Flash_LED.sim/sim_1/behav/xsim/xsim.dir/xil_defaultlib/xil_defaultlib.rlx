@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/Myy19/Desktop/University/year one_lecture/course_Digital Logic/experiment4/Flash_LED/Flash_LED.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+C:/Users/Myy19/Desktop/University/year one_lecture/course_Digital Logic/experiment4/Flash_LED/Flash_LED.srcs/sim_1/imports/experiment4/flash_led_top_tb.v,1795334321,verilog,,,,Flash_led_top_tb,,,,,,,,
+C:/Users/Myy19/Desktop/University/year one_lecture/course_Digital Logic/experiment4/Flash_LED/Flash_LED.srcs/sources_1/imports/experiment4/counter.v,1795346303,verilog,,C:/Users/Myy19/Desktop/University/year one_lecture/course_Digital Logic/experiment4/Flash_LED/Flash_LED.srcs/sources_1/imports/experiment4/flash_led_ctl.v,,counter,,,,,,,,
+C:/Users/Myy19/Desktop/University/year one_lecture/course_Digital Logic/experiment4/Flash_LED/Flash_LED.srcs/sources_1/imports/experiment4/flash_led_ctl.v,1795346326,verilog,,C:/Users/Myy19/Desktop/University/year one_lecture/course_Digital Logic/experiment4/Flash_LED/Flash_LED.srcs/sources_1/imports/experiment4/flash_led_top.v,,flash_led_ctl,,,,,,,,
+C:/Users/Myy19/Desktop/University/year one_lecture/course_Digital Logic/experiment4/Flash_LED/Flash_LED.srcs/sources_1/imports/experiment4/flash_led_top.v,1795334322,verilog,,C:/Users/Myy19/Desktop/University/year one_lecture/course_Digital Logic/experiment4/Flash_LED/Flash_LED.srcs/sim_1/imports/experiment4/flash_led_top_tb.v,,flash_led_top,,,,,,,,

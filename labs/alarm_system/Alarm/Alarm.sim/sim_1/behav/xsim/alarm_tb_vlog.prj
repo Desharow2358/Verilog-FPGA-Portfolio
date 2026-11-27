@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Alarm.srcs/sources_1/new/alarm.v" \
+"../../../../Alarm.srcs/sources_1/new/key_debounce.v" \
+"../../../../Alarm.srcs/sim_1/new/alarm_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
